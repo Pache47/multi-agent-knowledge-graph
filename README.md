@@ -82,9 +82,39 @@ python3 -m venv .venv
 ```
 
 `build` replays the recorded agent decisions in `agent_cache/`, so it needs no API key
-and reproduces the recorded graph exactly. For live agents, copy `.env.example` to
-`.env`, set your key locally (never commit it), and use `build --mode live`: only new
-or changed files are sent to the model. Live mode sends the fictional files to OpenAI.
+and reproduces the recorded graph exactly. To run the agents yourself, add an API key.
+
+## Run with your own API key and models
+
+Copy `.env.example` to `.env` and set your OpenAI key. `.env` is git-ignored; never
+commit the key. Live mode sends the fictional files and questions to OpenAI.
+
+```sh
+cp .env.example .env    # then set OPENAI_API_KEY=...
+```
+
+Choose the models in `.env`:
+
+| Variable | Used for | Default |
+|---|---|---|
+| `OPENAI_MODEL` | Construction agents, investigator and responder | `gpt-4.1-mini` |
+| `OPENAI_VERIFIER_MODEL` | Verifier that checks every claim (empty uses `OPENAI_MODEL`) | `gpt-4.1` |
+| `OPENAI_EMBEDDING_MODEL` | Meaning-based passage search | `text-embedding-3-small` |
+| `OPENAI_JUDGE_MODEL` | Judge in `tools/evaluate.py` | `gpt-4.1` |
+
+With a key set:
+
+| To | Run |
+|---|---|
+| Answer live in the app | Start the app; the sidebar's **Assistant** switches to **Live AI answers** |
+| Build with live agents | `.venv/bin/factory-demo build --mode live`: only new or changed files go to the model |
+| Rebuild everything with another model | `.venv/bin/factory-demo build --mode live --refresh`: ignores the recorded decisions and records new ones in `agent_cache/` (`git checkout agent_cache` restores the originals) |
+| Ask from the command line | `.venv/bin/factory-demo ask "Why did CV-01 stop?" --mode live` |
+| Ask new questions in notebook 02 | Set `MODE = "live"` in its first cell |
+| Re-run the evaluation | `PYTHONPATH=src .venv/bin/python tools/evaluate.py --output evaluation/runs/NEW --repeats 2` |
+
+Recorded decisions are matched by their prompt and input, not by model, so changing
+`OPENAI_MODEL` alone does not rebuild the graph; add `--refresh` for that.
 
 ## How it works
 
