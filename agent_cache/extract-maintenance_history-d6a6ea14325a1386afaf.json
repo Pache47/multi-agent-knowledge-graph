@@ -1,0 +1,56 @@
+{
+  "key": "d6a6ea14325a1386afafef2415e7d5e6f5dcce8efd2e6c75c0c91d35d6fd2b50",
+  "agent": "extract-maintenance_history",
+  "for": "N1",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "recorded_at": "2026-10-25T19:13:00+00:00",
+  "usage": {
+    "input_tokens": 1011,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 169,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 1180
+  },
+  "output": {
+    "cases": [
+      {
+        "reference": {
+          "line": 3,
+          "text": "WO-482"
+        },
+        "date": {
+          "line": 5,
+          "text": "11 Oct 2026"
+        },
+        "occurred_on": "2026-10-11",
+        "equipment": {
+          "line": 5,
+          "text": "case packer outfeed (CV02)"
+        },
+        "problem": {
+          "line": 6,
+          "text": "Operator reported packs backing up and belt creeping to the left."
+        },
+        "finding": {
+          "line": 7,
+          "text": "Loose mounting bolt on the left guide was recorded; roller condition wasn't checked."
+        },
+        "finding_status": "reported",
+        "work": {
+          "line": 8,
+          "text": "Shift fitter realigned the guide and secured the mounting bolt."
+        },
+        "outcome": {
+          "line": 9,
+          "text": "Ran six cartons. No further left drift during that run; next-shift follow-up still open."
+        },
+        "configuration": null
+      }
+    ]
+  }
+}

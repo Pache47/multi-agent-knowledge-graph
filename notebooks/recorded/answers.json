@@ -1,0 +1,1258 @@
+{
+ "0c6edf111ee667fcf5362095": {
+  "output": {
+   "claim_id": "demo",
+   "reason": "The cited note only contains an unverified suspicion about the motor being tired without any inspection or confirmation, so it does not support the claim that the motor is worn out and must be replaced.",
+   "supported": false
+  },
+  "stage": "verifier",
+  "usage": {
+   "input_tokens": 776,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 52,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 828
+  }
+ },
+ "0e7d055a2d7e270b6cd2107f": {
+  "output": [
+   {
+    "arguments": "{\"query\":\"outfeed belt\"}",
+    "call_id": "call_XWJJIbXhcF2Hz4J39za7qPU0",
+    "id": "fc_065e17d457f2e060016ae06702fed887d08dfc0d4f0c24e11d",
+    "name": "find_equipment",
+    "status": "completed",
+    "type": "function_call"
+   }
+  ],
+  "stage": "investigator",
+  "usage": {
+   "input_tokens": 2106,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 18,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 2124
+  }
+ },
+ "0f5a84ab7bb9df4675e1a034": {
+  "output": [
+   {
+    "arguments": "{\"outcome\":\"answer\",\"question\":\"\"}",
+    "call_id": "call_S99ILTOZTTIUVUK0LHtFXi0v",
+    "id": "fc_064d2c7fbd92bb63016ae0671bcf9c87d0b4f97a5e8f5f2c35",
+    "name": "finish_retrieval",
+    "status": "completed",
+    "type": "function_call"
+   }
+  ],
+  "stage": "investigator",
+  "usage": {
+   "input_tokens": 5140,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 2048
+   },
+   "output_tokens": 22,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 5162
+  }
+ },
+ "106fa34971f1da6e81de3089": {
+  "output": [
+   {
+    "arguments": "{\"outcome\":\"clarify\",\"question\":\"There are two outfeed machines, CV-01 (outfeed belt) and CV-02 (case packer outfeed). Which one has stopped?\"}",
+    "call_id": "call_0a3T4vZSSILRpkdbiY1hEJPb",
+    "id": "fc_05907a46b4eeb67e016ae06718b6e087d0b37a77713718a4f6",
+    "name": "finish_retrieval",
+    "status": "completed",
+    "type": "function_call"
+   }
+  ],
+  "stage": "investigator",
+  "usage": {
+   "input_tokens": 1596,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 42,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 1638
+  }
+ },
+ "198b29310ea2ff35b022bd7c": {
+  "output": {
+   "claim_id": "next_steps-1",
+   "reason": "The cited cards explicitly instruct to perform a physical inspection using the site-approved maintenance procedure SITE-M01, which includes checking mechanical obstructions such as binding rollers, matching all parts of the claim.",
+   "supported": true
+  },
+  "stage": "verifier",
+  "usage": {
+   "input_tokens": 2555,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 55,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 2610
+  }
+ },
+ "1babc7aa1f73dc1ae52fcb05": {
+  "output": {
+   "claim_id": "possible_causes-1",
+   "reason": "The cited card explicitly states that motor overload can be caused by mechanical resistance or obstruction and that motor overload is a result of excessive loading over time; a roller that barely turns qualifies as mechanical resistance causing this overload.",
+   "supported": true
+  },
+  "stage": "verifier",
+  "usage": {
+   "input_tokens": 1006,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 60,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 1066
+  }
+ },
+ "1cdbe7ed7a5dcb5a02a67bc7": {
+  "output": {
+   "claim_id": "findings-2",
+   "reason": "The cited policy clearly states not to advise increasing protection thresholds to keep production running or bypassing safety features, directly supporting the claim.",
+   "supported": true
+  },
+  "stage": "verifier",
+  "usage": {
+   "input_tokens": 1111,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 43,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 1154
+  }
+ },
+ "20a4d7ed579199785cca3a6a": {
+  "output": {
+   "claim_id": "findings-3",
+   "reason": "The cited CT-200 configuration B manual states motor overload can stem from mechanical resistance, motor issues, or incorrect configuration and does not allow altering motor protection settings, fully supporting the claim.",
+   "supported": true
+  },
+  "stage": "verifier",
+  "usage": {
+   "input_tokens": 1984,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 54,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 2038
+  }
+ },
+ "242e810de96707c273898e3b": {
+  "output": [
+   {
+    "arguments": "{\"equipment_id\":\"CV-01\"}",
+    "call_id": "call_oBX8cMpuW3Gp3qGXbzu4KT6q",
+    "id": "fc_05907a46b4eeb67e016ae06711fc4c87d09cd7d49886c26bbc",
+    "name": "troubleshooting_context",
+    "status": "completed",
+    "type": "function_call"
+   }
+  ],
+  "stage": "investigator",
+  "usage": {
+   "input_tokens": 2454,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 2176
+   },
+   "output_tokens": 20,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 2474
+  }
+ },
+ "2c0fd85825e9ba7bad1e1cf8": {
+  "output": [
+   {
+    "arguments": "{\"equipment_id\":\"CV-01\"}",
+    "call_id": "call_zAtCoW8BKbdKJJHkbVnsvzYu",
+    "id": "fc_05907a46b4eeb67e016ae06715f20087d086b69c813f5aa96a",
+    "name": "query_history",
+    "status": "completed",
+    "type": "function_call"
+   }
+  ],
+  "stage": "investigator",
+  "usage": {
+   "input_tokens": 2741,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 2560
+   },
+   "output_tokens": 18,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 2759
+  }
+ },
+ "3182cae2431b7d709cc89de5": {
+  "output": [
+   {
+    "arguments": "{\"equipment_id\":\"CV-01\"}",
+    "call_id": "call_m3XiorF13bYGAvH9lq9IuPVf",
+    "id": "fc_05907a46b4eeb67e016ae0670ee3a087d081cd62e80d25d2df",
+    "name": "troubleshooting_context",
+    "status": "completed",
+    "type": "function_call"
+   }
+  ],
+  "stage": "investigator",
+  "usage": {
+   "input_tokens": 2308,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 1920
+   },
+   "output_tokens": 20,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 2328
+  }
+ },
+ "332cdc38df4e8d3687222294": {
+  "output": {
+   "claim_id": "findings-2",
+   "reason": "The cited shift notes from 07:30 to 08:15 on 14 Oct 2026 report side guide moves for a new carton size, intermittent scraping near the outfeed, and the outfeed belt stopping twice with motor overload messages, matching all parts of the claim cautiously.",
+   "supported": true
+  },
+  "stage": "verifier",
+  "usage": {
+   "input_tokens": 2601,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 75,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 2676
+  }
+ },
+ "360646ecd1041d46b4770189": {
+  "output": {
+   "claim_id": "findings-1",
+   "reason": "The cited MOTOR_OVERLOAD alarms for CV-01 occurred multiple times and the alarm definition confirms it indicates motor protection triggered due to detected excessive loading over time, causing the conveyor to stop.",
+   "supported": true
+  },
+  "stage": "verifier",
+  "usage": {
+   "input_tokens": 1210,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 54,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 1264
+  }
+ },
+ "3debdb6fdd947c1ff8aa928d": {
+  "output": [
+   {
+    "arguments": "{\"equipment_id\":\"CV-01\"}",
+    "call_id": "call_ta3m4SuCGknZDY3comF023Nc",
+    "id": "fc_05907a46b4eeb67e016ae067110afc87d082da11cb81088a13",
+    "name": "troubleshooting_context",
+    "status": "completed",
+    "type": "function_call"
+   }
+  ],
+  "stage": "investigator",
+  "usage": {
+   "input_tokens": 2404,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 2176
+   },
+   "output_tokens": 20,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 2424
+  }
+ },
+ "48a2fff72f824619a2bf9e98": {
+  "output": {
+   "claim_id": "next_steps-1",
+   "reason": "The cited manual and approved parts list state that for the underside return roller assembly on CT-200 configuration B, the approved replacement part is RA-200B including bearings, and stock confirmation must be done separately with stores, fully supporting the claim.",
+   "supported": true
+  },
+  "stage": "verifier",
+  "usage": {
+   "input_tokens": 2369,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 66,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 2435
+  }
+ },
+ "492940438e768666fa9e3b86": {
+  "output": [
+   {
+    "arguments": "{\"query\":\"outfeed belt\"}",
+    "call_id": "call_nCu9jZpiuH2JxdeKglNcSBD7",
+    "id": "fc_0abf4aaa20652cf2016ae066f5060087d0a1fe8fd5b21ae0f0",
+    "name": "find_equipment",
+    "status": "completed",
+    "type": "function_call"
+   }
+  ],
+  "stage": "investigator",
+  "usage": {
+   "input_tokens": 2058,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 18,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 2076
+  }
+ },
+ "4f642a90802243bab1bf6974": {
+  "output": {
+   "claim_id": "demo",
+   "reason": "The cited card states motor overload can be caused by mechanical resistance or obstruction among other issues but does not specifically identify binding rollers as the cause of today's overload stops.",
+   "supported": false
+  },
+  "stage": "verifier",
+  "usage": {
+   "input_tokens": 926,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 46,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 972
+  }
+ },
+ "4f7db2a128c951b629151042": {
+  "output": [
+   {
+    "arguments": "{\"equipment_id\":\"CV-01\"}",
+    "call_id": "call_65bLlqpMDq0KyPB0gjvJRPG7",
+    "id": "fc_065e17d457f2e060016ae06705a17087d0a2bb84350989e680",
+    "name": "approved_parts",
+    "status": "completed",
+    "type": "function_call"
+   }
+  ],
+  "stage": "investigator",
+  "usage": {
+   "input_tokens": 5196,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 2176
+   },
+   "output_tokens": 19,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 5215
+  }
+ },
+ "4f90e9b0652de101f26c0a44": {
+  "output": [
+   {
+    "arguments": "{\"equipment_id\":\"CV-01\"}",
+    "call_id": "call_LgAjsYND9g4IMGbGOjZn3PND",
+    "id": "fc_0abf4aaa20652cf2016ae066f6a6d487d08f8422f7ba98f5dd",
+    "name": "troubleshooting_context",
+    "status": "completed",
+    "type": "function_call"
+   }
+  ],
+  "stage": "investigator",
+  "usage": {
+   "input_tokens": 2245,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 1920
+   },
+   "output_tokens": 20,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 2265
+  }
+ },
+ "582893a2d63a6d9c6f0d49d2": {
+  "output": [
+   {
+    "arguments": "{\"query\":\"motor overload causes check outfeed belt\",\"equipment_id\":\"CV-01\",\"limit\":6}",
+    "call_id": "call_IMvV1FK6h5l2ZFZ5HfR1zn9p",
+    "id": "fc_0abf4aaa20652cf2016ae066f7dd6887d0a9e8fe9b414ac67f",
+    "name": "search_passages",
+    "status": "completed",
+    "type": "function_call"
+   }
+  ],
+  "stage": "investigator",
+  "usage": {
+   "input_tokens": 5148,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 33,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 5181
+  }
+ },
+ "5c933c72c086f9987ee260fb": {
+  "output": {
+   "claim_id": "findings-3",
+   "reason": "The cited case J-071 clearly reports loose packing material obstructing the conveyor causing motor overload, which was removed, and a trial run completed without overload, fully supporting the claim.",
+   "supported": true
+  },
+  "stage": "verifier",
+  "usage": {
+   "input_tokens": 1818,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 53,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 1871
+  }
+ },
+ "65818b2ade36cfa9ad221d8a": {
+  "output": [
+   {
+    "arguments": "{\"query\":\"CV-01\"}",
+    "call_id": "call_ulKOgZe44RLUYpJJXA0Fc11L",
+    "id": "fc_064d2c7fbd92bb63016ae06719cea487d082f9e67a9c739725",
+    "name": "find_equipment",
+    "status": "completed",
+    "type": "function_call"
+   }
+  ],
+  "stage": "investigator",
+  "usage": {
+   "input_tokens": 2050,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 18,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 2068
+  }
+ },
+ "6d1905e80c4e6170f0ba5a34": {
+  "output": {
+   "claim_id": "demo",
+   "reason": "The cited manual excerpt explicitly lists mechanical resistance or obstruction as possible causes of motor overload, supporting the claim that mechanical resistance such as binding rollers can cause motor overload.",
+   "supported": true
+  },
+  "stage": "verifier",
+  "usage": {
+   "input_tokens": 938,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 46,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 984
+  }
+ },
+ "7297cd217eaa8d476a4d516f": {
+  "output": [
+   {
+    "arguments": "{\"query\":\"CV-01\"}",
+    "call_id": "call_5bl22FngaKFU4HX0EPMJugKm",
+    "id": "fc_05907a46b4eeb67e016ae067130ac087d081170970a67e747a",
+    "name": "find_equipment",
+    "status": "completed",
+    "type": "function_call"
+   }
+  ],
+  "stage": "investigator",
+  "usage": {
+   "input_tokens": 2504,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 2304
+   },
+   "output_tokens": 18,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 2522
+  }
+ },
+ "737da7b69d7b68bf2f7c8f4a": {
+  "output": {
+   "fact_ids": [
+    "events:0580c9ea292b59e8",
+    "history:case:J-108",
+    "history:case:J-071",
+    "stock-summary:28735961f85dd87ed2e3"
+   ],
+   "findings": [
+    {
+     "citations": [
+      "technician:messages",
+      "passage:E5:e9d9bc2283b7:11",
+      "passage:E5:e9d9bc2283b7:16",
+      "node:E3:note:7"
+     ],
+     "id": "f1",
+     "text": "The outfeed belt CV-01 stopped twice with motor overload errors after carton size changeover, and inspection found a roller underneath the belt that barely turns. Cartons and side guides were clear, so obstruction was not causing the problem."
+    }
+   ],
+   "next_steps": [
+    {
+     "citations": [
+      "passage:E5:e9d9bc2283b7:22",
+      "passage:E7a:5402c81f7fcc:1",
+      "passage:E8:e6b1acca8120:9"
+     ],
+     "id": "n1",
+     "text": "Replace the underside return roller assembly with the approved part RA-200B, which includes the roller and bearings, specific to CT-200 configuration B. Confirm stock availability with stores."
+    }
+   ],
+   "possible_causes": [
+    {
+     "citations": [
+      "passage:E5:e9d9bc2283b7:11"
+     ],
+     "id": "c1",
+     "text": "Motor overload can be caused by mechanical resistance such as a binding roller, motor issues, or incorrect motor setup. A roller that barely turns can cause mechanical resistance leading to overload."
+    }
+   ],
+   "question": "",
+   "status": "answered"
+  },
+  "stage": "responder",
+  "usage": {
+   "input_tokens": 5249,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 328,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 5577
+  }
+ },
+ "73e87d1f63f42dacdb207812": {
+  "output": {
+   "claim_id": "possible_causes-1",
+   "reason": "The cited cards explicitly state that motor overload can be caused by mechanical resistance or obstruction such as binding rollers or loose packing material, matching the claim exactly.",
+   "supported": true
+  },
+  "stage": "verifier",
+  "usage": {
+   "input_tokens": 1995,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 48,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 2043
+  }
+ },
+ "757d765228c82f9cdded605b": {
+  "output": [
+   {
+    "arguments": "{\"query\":\"motor overload causes outfeed belt inspection\",\"equipment_id\":\"CV-01\",\"limit\":6}",
+    "call_id": "call_3wC8j1910xrSSBAqigwdcGTj",
+    "id": "fc_0abf4aaa20652cf2016ae066f8e24c87d0aac46b708b3031e6",
+    "name": "search_passages",
+    "status": "completed",
+    "type": "function_call"
+   }
+  ],
+  "stage": "investigator",
+  "usage": {
+   "input_tokens": 6130,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 4992
+   },
+   "output_tokens": 33,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 6163
+  }
+ },
+ "75984eaac39cd50a67433629": {
+  "output": {
+   "claim_id": "next_steps-1",
+   "reason": "Both cited cards specify that physical checks must follow the site-approved maintenance procedure SITE-M01, including authorized staff performing the inspection and observing site isolation and verification processes before inspection.",
+   "supported": true
+  },
+  "stage": "verifier",
+  "usage": {
+   "input_tokens": 1749,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 51,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 1800
+  }
+ },
+ "7aeda045934ffc2f1d9d0f0c": {
+  "output": {
+   "claim_id": "findings-1",
+   "reason": "The technician messages confirm the outfeed belt CV-01 stopped twice with motor overload errors after carton changeover and the inspection found a roller underneath the belt that barely turns, with cartons and side guides clear, matching the claim exactly.",
+   "supported": true
+  },
+  "stage": "verifier",
+  "usage": {
+   "input_tokens": 2216,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 63,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 2279
+  }
+ },
+ "802dca8caea3c5573bccce5e": {
+  "output": [
+   {
+    "arguments": "{\"equipment_id\":\"CV-01\"}",
+    "call_id": "call_ROqaNk8WaETjh9KX00KEo1mY",
+    "id": "fc_05907a46b4eeb67e016ae067141d6887d081adcdce10a240d8",
+    "name": "troubleshooting_context",
+    "status": "completed",
+    "type": "function_call"
+   }
+  ],
+  "stage": "investigator",
+  "usage": {
+   "input_tokens": 2691,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 2304
+   },
+   "output_tokens": 20,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 2711
+  }
+ },
+ "86088950b93b2f6692a198a6": {
+  "output": [
+   {
+    "arguments": "{\"query\":\"CV-01\"}",
+    "call_id": "call_867ZmirdUlQC7nxiG996qXHI",
+    "id": "fc_05907a46b4eeb67e016ae06717a37487d0aafbb7d043e7c543",
+    "name": "find_equipment",
+    "status": "completed",
+    "type": "function_call"
+   }
+  ],
+  "stage": "investigator",
+  "usage": {
+   "input_tokens": 2784,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 2560
+   },
+   "output_tokens": 18,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 2802
+  }
+ },
+ "8b3337ff74c8ad56e7e75614": {
+  "output": {
+   "claim_id": "next_steps-2",
+   "reason": "Both cited cards instruct consulting the maintenance lead if the detailed procedure is not available and explicitly advise against increasing protection thresholds to maintain operation, supporting the claim exactly.",
+   "supported": true
+  },
+  "stage": "verifier",
+  "usage": {
+   "input_tokens": 1845,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 48,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 1893
+  }
+ },
+ "91a46bd49f7e486b130d4b2e": {
+  "output": {
+   "claim_id": "possible_causes-2",
+   "reason": "The cited card explicitly lists motor-related problems or incorrect motor configuration as possible explanations for a motor overload.",
+   "supported": true
+  },
+  "stage": "verifier",
+  "usage": {
+   "input_tokens": 936,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 38,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 974
+  }
+ },
+ "_model": "gpt-4.1-mini",
+ "adfa00a083725115122e9690": {
+  "output": [
+   {
+    "arguments": "{\"equipment_id\":\"CV-01\"}",
+    "call_id": "call_20xLIic6X5VOwregcoO2mN5C",
+    "id": "fc_065e17d457f2e060016ae0670440c487d0bf2642ae6f03ec1a",
+    "name": "troubleshooting_context",
+    "status": "completed",
+    "type": "function_call"
+   }
+  ],
+  "stage": "investigator",
+  "usage": {
+   "input_tokens": 2293,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 1920
+   },
+   "output_tokens": 20,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 2313
+  }
+ },
+ "b001fee9530f1a5a46875e20": {
+  "output": [
+   {
+    "arguments": "{\"equipment_id\":\"CV-01\"}",
+    "call_id": "call_SkTHsAOqwHyz416bxJ06ZKLH",
+    "id": "fc_0abf4aaa20652cf2016ae066f9dbcc87d0ab7a35cbc1fc93e2",
+    "name": "query_history",
+    "status": "completed",
+    "type": "function_call"
+   }
+  ],
+  "stage": "investigator",
+  "usage": {
+   "input_tokens": 7112,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 6016
+   },
+   "output_tokens": 18,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 7130
+  }
+ },
+ "b92a67539970a2ddd3b23dff": {
+  "output": {
+   "claim_id": "demo",
+   "reason": "The cited card explicitly states the operator's suspicion that the motor may be getting tired with no inspection done, matching the claim exactly.",
+   "supported": true
+  },
+  "stage": "verifier",
+  "usage": {
+   "input_tokens": 781,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 40,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 821
+  }
+ },
+ "b9e03bbd2af47fd0b278984d": {
+  "output": {
+   "claim_id": "possible_causes-1",
+   "reason": "The cited card states that motor overload detection indicates excessive loading possibly due to mechanical resistance, motor-related problems, or incorrect configuration, fully supporting the claim as a cautious restatement.",
+   "supported": true
+  },
+  "stage": "verifier",
+  "usage": {
+   "input_tokens": 934,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 53,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 987
+  }
+ },
+ "bb2c7936aa98e7b8c34d9d95": {
+  "output": [
+   {
+    "arguments": "{\"equipment_id\":\"CV-01\"}",
+    "call_id": "call_HzKoEEDQtaU0wPnmsy1Yd06E",
+    "id": "fc_064d2c7fbd92bb63016ae0671ab09c87d0b0a1047f88620e54",
+    "name": "troubleshooting_context",
+    "status": "completed",
+    "type": "function_call"
+   }
+  ],
+  "stage": "investigator",
+  "usage": {
+   "input_tokens": 2237,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 1920
+   },
+   "output_tokens": 20,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 2257
+  }
+ },
+ "bbe7bddd633345e534f8e160": {
+  "output": {
+   "fact_ids": [
+    "events:0580c9ea292b59e8",
+    "history:case:J-108",
+    "history:case:J-071"
+   ],
+   "findings": [
+    {
+     "citations": [
+      "node:E2:DRV-441",
+      "node:E2:DRV-443",
+      "node:alarm:MOTOR_OVERLOAD"
+     ],
+     "id": "f1",
+     "text": "CV-01 has triggered motor overload events, stopping the conveyor due to detected excessive loading over time, as shown by multiple MOTOR_OVERLOAD alarms."
+    },
+    {
+     "citations": [
+      "passage:E8:e6b1acca8120:9"
+     ],
+     "id": "f2",
+     "text": "Site policy strictly prohibits increasing motor overload protection thresholds to keep production running or bypassing safety features."
+    },
+    {
+     "citations": [
+      "passage:E5:e9d9bc2283b7:11",
+      "node:CT-200:B",
+      "node:document:E5"
+     ],
+     "id": "f3",
+     "text": "The CT-200 configuration B manual indicates motor overload can be caused by mechanical resistance, motor issues, or incorrect configuration, and does not permit altering protection settings."
+    }
+   ],
+   "next_steps": [
+    {
+     "citations": [
+      "passage:E5:e9d9bc2283b7:16",
+      "passage:E8:e6b1acca8120:1"
+     ],
+     "id": "ns1",
+     "text": "Follow site-approved maintenance procedure SITE-M01 for physical checks, ensuring isolation and verification processes are observed before inspection."
+    },
+    {
+     "citations": [
+      "passage:E5:e9d9bc2283b7:16",
+      "passage:E8:e6b1acca8120:9"
+     ],
+     "id": "ns2",
+     "text": "Consult the maintenance lead if the required detailed procedure is unavailable rather than changing configuration settings or thresholds."
+    }
+   ],
+   "possible_causes": [
+    {
+     "citations": [
+      "passage:E5:e9d9bc2283b7:11"
+     ],
+     "id": "pc1",
+     "text": "Motor overload may stem from mechanical resistance or obstruction, motor-related problems, or incorrect motor configuration."
+    }
+   ],
+   "question": "",
+   "status": "answered"
+  },
+  "stage": "responder",
+  "usage": {
+   "input_tokens": 4667,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 406,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 5073
+  }
+ },
+ "bf244d97165c8f2be3482bfb": {
+  "output": {
+   "claim_id": "findings-4",
+   "reason": "The cited cards confirm that the outfeed belt CV-01 is model CT-200, configuration B, which uses a motor, gearbox, drive, belt, support rollers, and package sensors exactly as claimed.",
+   "supported": true
+  },
+  "stage": "verifier",
+  "usage": {
+   "input_tokens": 2698,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 59,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 2757
+  }
+ },
+ "c2f314b01f102db064f512df": {
+  "output": [
+   {
+    "arguments": "{\"outcome\":\"answer\",\"question\":\"\"}",
+    "call_id": "call_jW7AmiOXuWMKiHwtuh6eaMG4",
+    "id": "fc_0abf4aaa20652cf2016ae066fad2ec87d0bd232442d182ff58",
+    "name": "finish_retrieval",
+    "status": "completed",
+    "type": "function_call"
+   }
+  ],
+  "stage": "investigator",
+  "usage": {
+   "input_tokens": 7974,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 6912
+   },
+   "output_tokens": 22,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 7996
+  }
+ },
+ "c6a898a9af9f9de8bf28b8a8": {
+  "output": [
+   {
+    "arguments": "{\"equipment_id\":\"node:CV-01\"}",
+    "call_id": "call_856N395b03dX0ZUU4Ebq66SW",
+    "id": "fc_05907a46b4eeb67e016ae0671014f487d09bd555fa9c5d34f8",
+    "name": "troubleshooting_context",
+    "status": "completed",
+    "type": "function_call"
+   }
+  ],
+  "stage": "investigator",
+  "usage": {
+   "input_tokens": 2355,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 22,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 2377
+  }
+ },
+ "d206301fff297eefa1b8b369": {
+  "output": {
+   "claim_id": "next_steps-2",
+   "reason": "The cited card explicitly states that if the required detailed procedure is unavailable, one should consult the maintenance lead, supporting the claim as a recommended next step.",
+   "supported": true
+  },
+  "stage": "verifier",
+  "usage": {
+   "input_tokens": 1057,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 47,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 1104
+  }
+ },
+ "d581e3e81088668d8000ab14": {
+  "output": [
+   {
+    "arguments": "{\"query\":\"outfeed\"}",
+    "call_id": "call_jQtU5ueczTgy6rwbI1grpmxc",
+    "id": "fc_05907a46b4eeb67e016ae0670de3a487d09e7799c1e14ff551",
+    "name": "find_equipment",
+    "status": "completed",
+    "type": "function_call"
+   }
+  ],
+  "stage": "investigator",
+  "usage": {
+   "input_tokens": 2044,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 17,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 2061
+  }
+ },
+ "e2ef702224a9e7325fa0b603": {
+  "output": [
+   {
+    "arguments": "{\"equipment_id\":\"CV-01\"}",
+    "call_id": "call_PfMhWNe2m8q9xhlbuOs9vwQT",
+    "id": "fc_065e17d457f2e060016ae06707124087d0885a0c8bf44e2f9a",
+    "name": "query_stock",
+    "status": "completed",
+    "type": "function_call"
+   }
+  ],
+  "stage": "investigator",
+  "usage": {
+   "input_tokens": 5850,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 4992
+   },
+   "output_tokens": 18,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 5868
+  }
+ },
+ "f8b1e7893e3cc2bd9484ad9f": {
+  "output": {
+   "claim_id": "findings-1",
+   "reason": "The cited cards explicitly state that the 'MOTOR_OVERLOAD' alarm means motor protection detected excessive loading over time and does not specify a unique failed component, aligning fully with the claim.",
+   "supported": true
+  },
+  "stage": "verifier",
+  "usage": {
+   "input_tokens": 1247,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 54,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 1301
+  }
+ },
+ "fadaf88ebc40ab2619449c7c": {
+  "output": {
+   "fact_ids": [
+    "events:0580c9ea292b59e8",
+    "history:case:J-108",
+    "history:case:J-071"
+   ],
+   "findings": [
+    {
+     "citations": [
+      "passage:E5:e9d9bc2283b7:11",
+      "node:alarm:MOTOR_OVERLOAD"
+     ],
+     "id": "finding-1",
+     "text": "The 'MOTOR_OVERLOAD' alarm on the outfeed belt drive means motor protection detected excessive loading over time; it does not specify a unique failed component."
+    },
+    {
+     "citations": [
+      "node:E3:note:4",
+      "node:E3:note:5",
+      "node:E3:note:7",
+      "node:E3:note:8",
+      "passage:E3:4c7187a692c9:1"
+     ],
+     "id": "finding-2",
+     "text": "Recent shift notes report scraping near the outfeed and the belt stopped twice with motor overload after carton size change and guide adjustments."
+    },
+    {
+     "citations": [
+      "node:case:J-071",
+      "node:case:J-071:finding",
+      "passage:E4:a37db5a3c763:16"
+     ],
+     "id": "finding-3",
+     "text": "Historical maintenance found loose packing material obstructing the conveyor causing motor overload previously and the material was removed."
+    },
+    {
+     "citations": [
+      "node:CV-01",
+      "node:CT-200:B",
+      "passage:E1:9f35aafdb654:1",
+      "passage:E5:e9d9bc2283b7:7"
+     ],
+     "id": "finding-4",
+     "text": "The equipment is confirmed as model CT-200, configuration B, which uses a motor, gearbox, drive, belt, support rollers, and package sensors."
+    }
+   ],
+   "next_steps": [
+    {
+     "citations": [
+      "passage:E5:e9d9bc2283b7:16",
+      "passage:E8:e6b1acca8120:1",
+      "passage:E8:e6b1acca8120:9"
+     ],
+     "id": "step-1",
+     "text": "Perform physical inspection following the site-approved maintenance procedure SITE-M01, including checking for mechanical obstructions or resistance such as binding rollers."
+    },
+    {
+     "citations": [
+      "passage:E5:e9d9bc2283b7:16"
+     ],
+     "id": "step-2",
+     "text": "Consult the maintenance lead if the detailed procedure is unavailable or if additional guidance is needed."
+    }
+   ],
+   "possible_causes": [
+    {
+     "citations": [
+      "passage:E5:e9d9bc2283b7:11",
+      "passage:E5:e9d9bc2283b7:16",
+      "node:case:J-071:finding"
+     ],
+     "id": "cause-1",
+     "text": "Mechanical resistance or obstruction such as binding rollers or loose packing material causing excessive motor load."
+    },
+    {
+     "citations": [
+      "passage:E5:e9d9bc2283b7:11"
+     ],
+     "id": "cause-2",
+     "text": "Motor-related problems or incorrect motor configuration could also cause motor overload."
+    }
+   ],
+   "question": "",
+   "status": "answered"
+  },
+  "stage": "responder",
+  "usage": {
+   "input_tokens": 5383,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 0
+   },
+   "output_tokens": 606,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 5989
+  }
+ },
+ "fc9559c943a9462553f59759": {
+  "output": [
+   {
+    "arguments": "{\"outcome\":\"answer\",\"question\":\"\"}",
+    "call_id": "call_8EfkozAtsGKSyTu9Oa1ALaVV",
+    "id": "fc_065e17d457f2e060016ae067080e8087d096f21a3b356327be",
+    "name": "finish_retrieval",
+    "status": "completed",
+    "type": "function_call"
+   }
+  ],
+  "stage": "investigator",
+  "usage": {
+   "input_tokens": 6668,
+   "input_tokens_details": {
+    "cache_write_tokens": 0,
+    "cached_tokens": 5632
+   },
+   "output_tokens": 22,
+   "output_tokens_details": {
+    "reasoning_tokens": 0
+   },
+   "total_tokens": 6690
+  }
+ }
+}

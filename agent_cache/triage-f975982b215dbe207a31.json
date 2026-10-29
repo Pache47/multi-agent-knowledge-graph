@@ -1,0 +1,24 @@
+{
+  "key": "f975982b215dbe207a31b24077a1a787af51b56eebe978465dd92807a141b980",
+  "agent": "triage",
+  "for": "E7b",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "recorded_at": "2026-10-25T19:12:54+00:00",
+  "usage": {
+    "input_tokens": 516,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 34,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 550
+  },
+  "output": {
+    "doc_type": "stock_list",
+    "alternative": "unsupported",
+    "reason": "The file contains a snapshot of parts inventory with quantities and bin locations, indicating a stock list."
+  }
+}

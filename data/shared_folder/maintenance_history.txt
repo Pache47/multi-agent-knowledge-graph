@@ -1,0 +1,19 @@
+SIMULATED MAINTENANCE NOTES / copied 13 Oct 2026 17:00 +08:00
+
+Job J-071 / 18 Aug 2026 / CV01 / line 1
+Reported: motor overload, outfeed stopped.
+Finding: loose packing material obstructing conveyor.
+Work: material removed under site maintenance procedure.
+Outcome: trial run completed without another overload during that trial.
+No motor replaced. Machine configuration at time of work: A.
+
+Job J-093 / 25 Sep 2026 / CV-02 / line 2 case packer outfeed
+Reported: motor overload.
+Finding: motor fault confirmed by maintenance inspection.
+Work: approved replacement motor fitted.
+Outcome: maintenance released machine after trial.
+
+Job J-108 / 8 Oct 2026 / packing outfeed CV-01
+Reported: exit package detector unreliable.
+Work: sensor PE-02 cleaned and alignment checked under site procedure.
+Outcome: package detection restored in the recorded test; no overload reported.

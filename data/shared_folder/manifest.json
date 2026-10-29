@@ -1,0 +1,47 @@
+{
+  "dataset": "initial-incident",
+  "title": "Packaging line 1 — outfeed stops",
+  "synthetic": true,
+  "timezone": "Asia/Singapore",
+  "question": "The outfeed belt stopped twice after the carton changeover. The drive says motor overload. What should I check next?",
+  "question_at": "2026-10-14T08:20:00+08:00",
+  "examples": [
+    {
+      "label": "Troubleshoot a stop",
+      "question": "The outfeed belt stopped twice after the carton changeover. The drive says motor overload. What should I check next?"
+    },
+    {
+      "label": "Which manual applies",
+      "question": "Which manual applies to CV-01, and why?"
+    },
+    {
+      "label": "Past maintenance",
+      "question": "What maintenance has been recorded on the outfeed belt?"
+    },
+    {
+      "label": "Part compatibility",
+      "question": "Can RA-200A be used instead of RA-200B on CV-01?"
+    },
+    {
+      "label": "Spare in stock",
+      "question": "Do we have a compatible underside roller assembly for CV-01?"
+    }
+  ],
+  "sources": [
+    {"id": "E1", "file": "equipment_notes.txt", "recorded_at": "2026-10-12T15:00:00+08:00"},
+    {"id": "E2", "file": "morning_export.log", "recorded_at": "2026-10-14T08:16:00+08:00"},
+    {"id": "E3", "file": "shift_handover.txt", "recorded_at": "2026-10-14T08:15:00+08:00"},
+    {"id": "E4", "file": "maintenance_history.txt", "recorded_at": "2026-10-13T17:00:00+08:00"},
+    {"id": "E5", "file": "manuals/CT-200_configuration_B_rev3.pdf", "recorded_at": "2026-09-01T09:00:00+08:00"},
+    {"id": "E6", "file": "manuals/CT-200_configuration_A_rev1.pdf", "recorded_at": "2025-11-01T09:00:00+08:00"},
+    {"id": "E7a", "file": "approved_parts.txt", "recorded_at": "2026-10-12T15:30:00+08:00"},
+    {"id": "E7b", "file": "stores_snapshot.txt", "recorded_at": "2026-10-13T16:00:00+08:00"},
+    {"id": "E8", "file": "site_maintenance_boundaries.txt", "recorded_at": "2026-10-01T09:00:00+08:00"},
+    {"id": "N1", "file": "friday_closeout.txt", "recorded_at": "2026-10-16T09:10:00+08:00"},
+    {"id": "N2", "file": "fitter_notebook.md", "recorded_at": "2026-10-16T09:30:00+08:00"},
+    {"id": "N3", "file": "unassigned_callout.txt", "recorded_at": "2026-10-16T10:00:00+08:00"},
+    {"id": "C3", "file": "stores_export_16oct.csv", "recorded_at": "2026-10-16T16:30:00+08:00"},
+    {"id": "R1", "file": "filling_equipment.csv", "recorded_at": "2026-10-17T09:00:00+08:00"},
+    {"id": "N4", "file": "work_orders_october.pdf", "recorded_at": "2026-10-18T08:00:00+08:00"}
+  ]
+}

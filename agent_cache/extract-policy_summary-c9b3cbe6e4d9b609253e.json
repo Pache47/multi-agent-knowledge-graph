@@ -1,0 +1,30 @@
+{
+  "key": "c9b3cbe6e4d9b609253ebb972518dd8e7a5f361e091381210abe5bcb026db581",
+  "agent": "extract-policy_summary",
+  "for": "S5",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "recorded_at": "2026-10-25T19:13:08+00:00",
+  "usage": {
+    "input_tokens": 520,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 52,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 572
+  },
+  "output": {
+    "procedure_id": {
+      "line": 1,
+      "text": "SIMULATED SITE-M02 POLICY SUMMARY / revision 1"
+    },
+    "full_procedure_included": false,
+    "basis": {
+      "line": 4,
+      "text": "The complete procedure is absent from this demonstration pack."
+    }
+  }
+}

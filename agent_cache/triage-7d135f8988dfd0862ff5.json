@@ -1,0 +1,24 @@
+{
+  "key": "7d135f8988dfd0862ff57aa2882741d03988d895f637b5ad9a6c78619635de5c",
+  "agent": "triage",
+  "for": "N4",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "recorded_at": "2026-10-25T19:12:54+00:00",
+  "usage": {
+    "input_tokens": 720,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 41,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 761
+  },
+  "output": {
+    "doc_type": "maintenance_history",
+    "alternative": "handover",
+    "reason": "The file contains detailed maintenance job closeouts and work orders describing maintenance tasks performed and follow-ups, which fits maintenance_history best."
+  }
+}

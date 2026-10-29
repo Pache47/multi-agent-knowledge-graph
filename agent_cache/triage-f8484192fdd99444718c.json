@@ -1,0 +1,24 @@
+{
+  "key": "f8484192fdd99444718c780af918d67c14374edd700dfe163010dd56d5382fd5",
+  "agent": "triage",
+  "for": "S4",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "recorded_at": "2026-10-25T19:13:07+00:00",
+  "usage": {
+    "input_tokens": 459,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 32,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 491
+  },
+  "output": {
+    "doc_type": "handover",
+    "alternative": "maintenance_history",
+    "reason": "The text records operator observations and notes during a shift without describing maintenance work done."
+  }
+}

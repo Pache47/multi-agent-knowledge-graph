@@ -1,0 +1,24 @@
+{
+  "key": "66fe8a6ceb9c60058c0c1bb0d1f5d063041449ae85b247b560b98b21847e68dd",
+  "agent": "triage",
+  "for": "E7a",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "recorded_at": "2026-10-25T19:12:54+00:00",
+  "usage": {
+    "input_tokens": 490,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 30,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 520
+  },
+  "output": {
+    "doc_type": "approved_parts",
+    "alternative": "manual",
+    "reason": "The file lists approved parts for equipment configurations, specifying part numbers and compatibility."
+  }
+}

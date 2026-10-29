@@ -1,0 +1,67 @@
+{
+  "key": "ba9e645c08be91039baa332a20b8f383b8ed95e72fb1b9d739ce2356a3807a5e",
+  "agent": "extract-manual",
+  "for": "E6",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "recorded_at": "2026-10-25T19:12:57+00:00",
+  "usage": {
+    "input_tokens": 1399,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 1545
+  },
+  "output": {
+    "document_id": {
+      "line": 6,
+      "text": "CT200-A"
+    },
+    "revision": {
+      "line": 6,
+      "text": "1"
+    },
+    "issued": {
+      "line": 6,
+      "text": "1 November 2025"
+    },
+    "issued_on": "2025-11-01",
+    "archived": true,
+    "applies_to": [
+      {
+        "model": {
+          "line": 4,
+          "text": "CT-200"
+        },
+        "configuration": {
+          "line": 5,
+          "text": "A"
+        }
+      }
+    ],
+    "section_headings": [
+      {
+        "line": 7,
+        "text": "1. Applicability"
+      },
+      {
+        "line": 11,
+        "text": "2. Motor overload"
+      },
+      {
+        "line": 15,
+        "text": "3. Roller assembly"
+      },
+      {
+        "line": 18,
+        "text": "4. Procedure boundary"
+      }
+    ],
+    "alarm_definitions": [],
+    "procedure_references": []
+  }
+}

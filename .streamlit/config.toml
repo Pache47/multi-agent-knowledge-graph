@@ -1,0 +1,9 @@
+[server]
+address = "127.0.0.1"
+headless = true
+# Reload edited local modules so the UI does not keep an older graph contract.
+fileWatcherType = "poll"
+runOnSave = true
+
+[browser]
+gatherUsageStats = false

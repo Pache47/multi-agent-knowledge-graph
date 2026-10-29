@@ -1,0 +1,29 @@
+{
+  "dataset": "sensor-stop-demo",
+  "title": "Carton buffer — detector stops",
+  "synthetic": true,
+  "timezone": "Asia/Singapore",
+  "question": "The carton buffer stopped and shows SENSOR_BLOCKED. What do the records suggest?",
+  "question_at": "2026-10-17T14:10:00+08:00",
+  "examples": [
+    {
+      "label": "Troubleshoot a stop",
+      "question": "The carton buffer stopped and shows SENSOR_BLOCKED. What do the records suggest?"
+    },
+    {
+      "label": "Which guidance applies",
+      "question": "Which guidance applies to the carton buffer BF-10?"
+    },
+    {
+      "label": "Recorded events",
+      "question": "How many SENSOR_BLOCKED stops are recorded for BF-10?"
+    }
+  ],
+  "sources": [
+    {"id": "S1", "file": "equipment.csv", "recorded_at": "2026-10-16T09:00:00+08:00"},
+    {"id": "S2", "file": "events.log", "recorded_at": "2026-10-17T14:09:00+08:00"},
+    {"id": "S3", "file": "manual.txt", "recorded_at": "2026-09-20T09:00:00+08:00"},
+    {"id": "S4", "file": "shift_note.txt", "recorded_at": "2026-10-17T14:08:00+08:00"},
+    {"id": "S5", "file": "policy.txt", "recorded_at": "2026-10-01T09:00:00+08:00"}
+  ]
+}

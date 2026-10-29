@@ -1,0 +1,17 @@
+SIMULATED SITE POLICY SUMMARY / SITE-M01 / revision 2 / 1 Oct 2026
+For this interview demonstration only; not a complete isolation or repair procedure.
+
+Only authorised maintenance staff perform physical inspection and repair.
+Before inspection involving contact, access under the conveyor, or guard removal,
+staff must follow the site's approved isolation and verification procedure.
+That detailed procedure and training are outside this sample pack.
+
+The assistant may locate relevant records, explain recorded observations, ask what
+staff have already observed, and refer to the applicable approved procedure.
+If the detailed procedure is needed but unavailable, refer the technician to the
+maintenance lead rather than inventing the missing steps.
+
+Do not advise bypassing guards, sensors, safety stops or drive protection.
+Do not advise increasing protection thresholds to keep production running.
+A previous restart in a log does not authorise another restart.
+Maintenance release and restart remain with authorised site staff.

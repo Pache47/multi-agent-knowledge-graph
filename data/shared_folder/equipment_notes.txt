@@ -1,0 +1,14 @@
+SIMULATED CUSTOMER FILE - NOT REAL EQUIPMENT
+Equipment walkdown notes / checked 12 Oct 2026, 15:00 +08:00
+
+Line 1: carton packer -> CV-01 -> LB-01 labeller
+CV-01 = "outfeed belt" / "packing outfeed". Model CT-200, configuration B.
+Drive D-01; motor M-01; gearbox G-01. Entry sensor PE-01, exit sensor PE-02.
+The underside return roller assembly is configuration B. Use the configuration B parts list.
+Installed configuration checked after upgrade on 1 Sep 2026.
+Controller PLC-01 receives LB-01 ready/not-ready status.
+Local safety stops are separate from production ready/not-ready signals.
+
+Other equipment, for reference:
+Line 2: CV-02 = "case packer outfeed". Model CT-200, configuration A.
+Drive D-02; motor M-02. It has not had the configuration B upgrade.

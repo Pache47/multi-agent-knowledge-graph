@@ -1,0 +1,11 @@
+SIMULATED STORES COUNT / 13-10-2026 16:00 +08:00
+Copied from stores worksheet. Counts may have changed since this snapshot.
+
+part        description              qty    bin
+RA-200A     return roller assy         3      B-11
+RA-200B     roller assembly            1      B-12
+PE-SPARE    photoeye, unassigned       2      C-03
+
+Reservations, subsequent issues and receipts are not included.
+The photoeye's compatibility with any installed sensor has not been checked.
+Contact stores to confirm availability before planning a replacement.

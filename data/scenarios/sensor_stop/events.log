@@ -1,0 +1,5 @@
+# SIMULATED controller export; plant local time UTC+08:00; saved 17 Oct 2026 14:09 +08:00
+2026-10-17T13:52:00+08:00 | event=DETECT-81 | PS-10 | SENSOR_BLOCKED | BF-10 stopped; detection signal stayed active beyond the configured interval
+2026-10-17T13:52:00+08:00 | event=DETECT-81 | PS-10 | SENSOR_BLOCKED | BF-10 stopped; detection signal stayed active beyond the configured interval
+2026-10-17T14:01:00+08:00 | event=DETECT-82 | PS-10 | SENSOR_BLOCKED | BF-10 stopped; detection signal stayed active beyond the configured interval
+2026-10-17T14:07:00+08:00 | event=DETECT-83 | PS-10 | SENSOR_BLOCKED | BF-10 stopped; detection signal stayed active beyond the configured interval

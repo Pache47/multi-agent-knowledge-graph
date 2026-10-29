@@ -1,0 +1,29 @@
+{
+  "key": "b4846094d1b6cda09324ce9464cf5963367012f6771a83f147119001d62fb896",
+  "agent": "reconcile",
+  "for": "N3",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "recorded_at": "2026-10-25T19:13:03+00:00",
+  "usage": {
+    "input_tokens": 694,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 57,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 751
+  },
+  "output": {
+    "decisions": [
+      {
+        "mention_index": 0,
+        "decision": "ambiguous",
+        "equipment_id": null,
+        "reason": "mention 'outfeed' matches multiple aliases including 'outfeed belt' (CV-01) and 'case packer outfeed' (CV-02)"
+      }
+    ]
+  }
+}

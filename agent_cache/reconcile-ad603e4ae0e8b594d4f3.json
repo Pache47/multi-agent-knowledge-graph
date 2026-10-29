@@ -1,0 +1,35 @@
+{
+  "key": "ad603e4ae0e8b594d4f302917d8cf11af78a46cfd395ca5092774a4a0f51741e",
+  "agent": "reconcile",
+  "for": "E4",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "recorded_at": "2026-10-25T19:13:02+00:00",
+  "usage": {
+    "input_tokens": 758,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 68,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 826
+  },
+  "output": {
+    "decisions": [
+      {
+        "mention_index": 0,
+        "decision": "match",
+        "equipment_id": "CV-01",
+        "reason": "CV01 matches CV-01 ID ignoring hyphen"
+      },
+      {
+        "mention_index": 1,
+        "decision": "match",
+        "equipment_id": "CV-02",
+        "reason": "CV-02 and 'case packer outfeed' alias match"
+      }
+    ]
+  }
+}

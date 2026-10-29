@@ -1,0 +1,89 @@
+{
+  "key": "1d1c9b16626a57f58033047956a87bd6e39f7929bb66c2490c1e774a1c13983d",
+  "agent": "extract-maintenance_history",
+  "for": "N4",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "recorded_at": "2026-10-25T19:12:56+00:00",
+  "usage": {
+    "input_tokens": 1206,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 308,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 1514
+  },
+  "output": {
+    "cases": [
+      {
+        "reference": {
+          "line": 4,
+          "text": "WO-604"
+        },
+        "date": {
+          "line": 4,
+          "text": "15 Oct 2026"
+        },
+        "occurred_on": "2026-10-15",
+        "equipment": {
+          "line": 5,
+          "text": "feed pump (P21)"
+        },
+        "problem": {
+          "line": 7,
+          "text": "Transfer to the filler slowed during batch 61. Operator heard rattling near the inlet."
+        },
+        "finding": {
+          "line": 9,
+          "text": "Product residue found on the inlet strainer. No impeller inspection recorded."
+        },
+        "finding_status": "reported",
+        "work": {
+          "line": 10,
+          "text": "Cleaned the strainer and refitted the cover seal. No replacement part booked."
+        },
+        "outcome": {
+          "line": 12,
+          "text": "Flow recovered during a ten-minute water run. Product run deferred until next shift."
+        },
+        "configuration": {
+          "line": 5,
+          "text": "H2"
+        }
+      },
+      {
+        "reference": {
+          "line": 18,
+          "text": "WO-611"
+        },
+        "date": {
+          "line": 18,
+          "text": "16 October 2026"
+        },
+        "occurred_on": "2026-10-16",
+        "equipment": {
+          "line": 19,
+          "text": "rinse pump"
+        },
+        "problem": {
+          "line": 20,
+          "text": "Wet patch at the return pump coupling after rinse cycle. Drip continued after wipe-down."
+        },
+        "finding": {
+          "line": 21,
+          "text": "Possibly the cover seal; source of the leak not confirmed."
+        },
+        "finding_status": "suspected",
+        "work": null,
+        "outcome": {
+          "line": 23,
+          "text": "blank"
+        },
+        "configuration": null
+      }
+    ]
+  }
+}

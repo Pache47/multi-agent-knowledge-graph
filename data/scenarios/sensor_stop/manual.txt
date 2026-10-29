@@ -1,0 +1,11 @@
+SIMULATED CB-50 conveyor guidance / configuration C / revision 4
+Applies to: CB-50:C
+
+Detection timeout
+SENSOR_BLOCKED means the carton detector's detection signal remained active longer than the configured interval. It does not establish that the detector has failed. Possible explanations include a carton obstructing the beam, contamination on the optical surface, or detector alignment. This is a detection condition, not a drive overload report.
+
+Distinguishing observations
+Existing observations about cartons remaining in the detection area, visible contamination, and the detector indication may help distinguish the possibilities. A photograph or shift report is an observation, not a confirmed repair finding.
+
+Maintenance boundary
+Physical inspection and cleaning belong to authorised maintenance staff following the site's approved isolation and verification procedure SITE-M02. That full procedure is not reproduced here. If it is unavailable, contact the maintenance lead. This extract does not authorise restart, bypassing the detector, or changing timing settings.

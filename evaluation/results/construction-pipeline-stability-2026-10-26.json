@@ -1,0 +1,55 @@
+{
+  "description": "Three fresh live builds of data/shared_folder with an empty decision cache. Gold checks are the 53 hand-written development assertions in evaluation/*_gold.json; they are never shown to any agent. Not an independent accuracy benchmark.",
+  "date": "2026-10-26",
+  "model": "gpt-4.1-mini (temperature 0)",
+  "runs": [
+    {
+      "run": 1,
+      "seconds": 11.9,
+      "passed": 53,
+      "total": 53,
+      "failed": [],
+      "held": [
+        "E1: Flow names unknown equipment.",
+        "N3: Equipment 'outfeed': ambiguous: mention 'outfeed' matches multiple entries with 'outfeed' in name or aliases (",
+        "C3: New stock fields await review (proposal 4264280c8ea77122, pending)."
+      ],
+      "corrections": 3,
+      "reroutes": [
+        "N1"
+      ]
+    },
+    {
+      "run": 2,
+      "seconds": 14.3,
+      "passed": 53,
+      "total": 53,
+      "failed": [],
+      "held": [
+        "E1: Flow names unknown equipment.",
+        "N3: Equipment 'outfeed': ambiguous: mention 'outfeed' matches multiple entries with 'outfeed' in name or aliases (",
+        "C3: New stock fields await review (proposal 4d58d1bcaf612dcf, pending)."
+      ],
+      "corrections": 3,
+      "reroutes": [
+        "N1"
+      ]
+    },
+    {
+      "run": 3,
+      "seconds": 11.7,
+      "passed": 53,
+      "total": 53,
+      "failed": [],
+      "held": [
+        "E1: Flow names unknown equipment.",
+        "N3: Equipment 'outfeed': ambiguous: mention 'outfeed' matches multiple entries with 'outfeed' in name or aliases (",
+        "C3: New stock fields await review (proposal 4264280c8ea77122, pending)."
+      ],
+      "corrections": 2,
+      "reroutes": [
+        "N1"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "key": "5a839d0f6544fc0ce0fb29473b83470af9d07a2ec829c4718684b01f3b74ea98",
+  "agent": "extract-manual",
+  "for": "E5",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "recorded_at": "2026-10-25T19:12:58+00:00",
+  "usage": {
+    "input_tokens": 1581,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 1408
+    },
+    "output_tokens": 208,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 1789
+  },
+  "output": {
+    "document_id": {
+      "line": 6,
+      "text": "CT200-B"
+    },
+    "revision": {
+      "line": 6,
+      "text": "3"
+    },
+    "issued": {
+      "line": 6,
+      "text": "1 September 2026"
+    },
+    "issued_on": "2026-09-01",
+    "archived": false,
+    "applies_to": [
+      {
+        "model": {
+          "line": 4,
+          "text": "CT-200"
+        },
+        "configuration": {
+          "line": 5,
+          "text": "B"
+        }
+      }
+    ],
+    "section_headings": [
+      {
+        "line": 7,
+        "text": "1. Applicability"
+      },
+      {
+        "line": 11,
+        "text": "2. Motor overload"
+      },
+      {
+        "line": 16,
+        "text": "3. Inspection boundary"
+      },
+      {
+        "line": 22,
+        "text": "4. Replacement reference"
+      },
+      {
+        "line": 26,
+        "text": "5. Other stops"
+      }
+    ],
+    "alarm_definitions": [
+      {
+        "code": {
+          "line": 12,
+          "text": "MOTOR_OVERLOAD"
+        },
+        "meaning": {
+          "line": 12,
+          "text": "The simulated drive label MOTOR_OVERLOAD means motor protection detected excessive loading over time."
+        }
+      }
+    ],
+    "procedure_references": [
+      {
+        "line": 17,
+        "text": "SITE-M01"
+      }
+    ]
+  }
+}

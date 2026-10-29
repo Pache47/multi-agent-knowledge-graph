@@ -1,0 +1,47 @@
+{
+  "key": "8c1d712bd005f84039ca5b61e3ca3b2f9229c6c4a3d2f5c7492d7d5244837999",
+  "agent": "extract-maintenance_history",
+  "for": "N3",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "recorded_at": "2026-10-25T19:12:55+00:00",
+  "usage": {
+    "input_tokens": 932,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 95,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 1027
+  },
+  "output": {
+    "cases": [
+      {
+        "reference": {
+          "line": 2,
+          "text": "WO-527"
+        },
+        "date": {
+          "line": 2,
+          "text": "13 Oct 2026"
+        },
+        "occurred_on": "2026-10-13",
+        "equipment": {
+          "line": 4,
+          "text": "outfeed"
+        },
+        "problem": {
+          "line": 5,
+          "text": "Repeated stopping reported during late shift."
+        },
+        "finding": null,
+        "finding_status": null,
+        "work": null,
+        "outcome": null,
+        "configuration": null
+      }
+    ]
+  }
+}

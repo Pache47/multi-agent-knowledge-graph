@@ -1,0 +1,122 @@
+{
+  "key": "bab74555b0ee06978c2301afe2c537c060438843488505add7bcc25c5dfcd66f",
+  "agent": "extract-maintenance_history",
+  "for": "E4",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "recorded_at": "2026-10-25T19:12:57+00:00",
+  "usage": {
+    "input_tokens": 1107,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 399,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 1506
+  },
+  "output": {
+    "cases": [
+      {
+        "reference": {
+          "line": 3,
+          "text": "J-071"
+        },
+        "date": {
+          "line": 3,
+          "text": "18 Aug 2026"
+        },
+        "occurred_on": "2026-08-18",
+        "equipment": {
+          "line": 3,
+          "text": "CV01 / line 1"
+        },
+        "problem": {
+          "line": 4,
+          "text": "motor overload, outfeed stopped."
+        },
+        "finding": {
+          "line": 5,
+          "text": "loose packing material obstructing conveyor."
+        },
+        "finding_status": "reported",
+        "work": {
+          "line": 6,
+          "text": "material removed under site maintenance procedure."
+        },
+        "outcome": {
+          "line": 7,
+          "text": "trial run completed without another overload during that trial."
+        },
+        "configuration": {
+          "line": 8,
+          "text": "A"
+        }
+      },
+      {
+        "reference": {
+          "line": 10,
+          "text": "J-093"
+        },
+        "date": {
+          "line": 10,
+          "text": "25 Sep 2026"
+        },
+        "occurred_on": "2026-09-25",
+        "equipment": {
+          "line": 10,
+          "text": "CV-02 / line 2 case packer outfeed"
+        },
+        "problem": {
+          "line": 11,
+          "text": "motor overload."
+        },
+        "finding": {
+          "line": 12,
+          "text": "motor fault confirmed by maintenance inspection."
+        },
+        "finding_status": "confirmed",
+        "work": {
+          "line": 13,
+          "text": "approved replacement motor fitted."
+        },
+        "outcome": {
+          "line": 14,
+          "text": "maintenance released machine after trial."
+        },
+        "configuration": null
+      },
+      {
+        "reference": {
+          "line": 16,
+          "text": "J-108"
+        },
+        "date": {
+          "line": 16,
+          "text": "8 Oct 2026"
+        },
+        "occurred_on": "2026-10-08",
+        "equipment": {
+          "line": 16,
+          "text": "packing outfeed CV-01"
+        },
+        "problem": {
+          "line": 17,
+          "text": "exit package detector unreliable."
+        },
+        "finding": null,
+        "finding_status": null,
+        "work": {
+          "line": 18,
+          "text": "sensor PE-02 cleaned and alignment checked under site procedure."
+        },
+        "outcome": {
+          "line": 19,
+          "text": "package detection restored in the recorded test; no overload reported."
+        },
+        "configuration": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "key": "eed494bbcb43dfec4dcfe07f0549446e02a75dfaadc4f7df92a9fddb295a7405",
+  "agent": "triage",
+  "for": "E8",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "recorded_at": "2026-10-25T19:12:54+00:00",
+  "usage": {
+    "input_tokens": 595,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 33,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 628
+  },
+  "output": {
+    "doc_type": "policy_summary",
+    "alternative": null,
+    "reason": "The text outlines site rules and procedures for maintenance staff, specifying authorized actions and safety policies."
+  }
+}

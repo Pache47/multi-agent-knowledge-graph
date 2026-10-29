@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+tmp/
+.DS_Store
+.env
+.env.*
+!.env.example
+.runtime/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+.ipynb_checkpoints/

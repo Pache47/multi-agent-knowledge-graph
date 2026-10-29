@@ -1,0 +1,4 @@
+SIMULATED handover / carton buffer BF-10 / saved 17 Oct 2026 14:08 +08:00
+The detector indication remained active after operators believed the last carton had left.
+An earlier observation from the normal operator position noted visible dust on the detector cover. No physical inspection has been completed. Detector contamination is a suspicion, not a confirmed cause.
+No cleaning, component replacement or successful restart is recorded in this note.

@@ -1,0 +1,22 @@
+{
+  "description": "Selected development assertions for handover and manual construction, not answer quality.",
+  "relationships": [
+    ["document:E5", "APPLIES_TO", "CT-200:B"],
+    ["document:E6", "APPLIES_TO", "CT-200:A"],
+    ["document:E5", "REFERENCES", "procedure:SITE-M01"],
+    ["document:E8", "DESCRIBES", "procedure:SITE-M01"],
+    ["E3:note:5", "RECORDED_FOR", "LINE1"]
+  ],
+  "forbidden_relationships": [
+    ["document:E6", "APPLIES_TO", "CT-200:B"],
+    ["document:E5", "APPLIES_TO", "CT-200:A"]
+  ],
+  "properties": {
+    "document:E5": {"document_id": "CT200-B", "revision": 3, "configuration": "B"},
+    "document:E6": {"document_id": "CT200-A", "revision": 1, "configuration": "A", "archived_copy": true},
+    "procedure:SITE-M01": {"details_available": false},
+    "E3:note:6": {"code": "UNVERIFIED_SUSPICION", "confirmed_diagnosis": false},
+    "E3:note:5": {"occurred_at": "2026-10-14T07:45:00+08:00"}
+  },
+  "evidence_counts": {}
+}

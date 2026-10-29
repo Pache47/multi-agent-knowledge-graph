@@ -1,0 +1,24 @@
+{
+  "key": "9d3165298fcd9098bb387b624d9d0242a66a5e898b7c294b9dfc44d3eb48e86f",
+  "agent": "triage",
+  "for": "S2",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "recorded_at": "2026-10-25T19:13:07+00:00",
+  "usage": {
+    "input_tokens": 587,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 33,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 620
+  },
+  "output": {
+    "doc_type": "event_log",
+    "alternative": "unsupported",
+    "reason": "The file contains timestamped event entries from a controller export, indicating logged events over time."
+  }
+}

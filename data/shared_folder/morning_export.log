@@ -1,0 +1,8 @@
+# SIMULATED LOG EXPORT; captured 2026-10-14 08:16:00 +08:00
+# Plant local time UTC+08:00. Events after capture are not included.
+2026-10-14T07:30:00+08:00 | event=SHIFT-0730 | LINE1 | CHANGEOVER_COMPLETE | larger cartons
+14/10/2026 07:58:00 ; event=DRV-441 ; D-01 ; MOTOR_OVERLOAD ; CV-01 STOPPED
+2026-10-14T07:58:00+08:00 | event=DRV-441 | D-01 | MOTOR_OVERLOAD | CV-01 STOPPED
+2026-10-14T08:08:00+08:00 | event=RUN-442 | CV-01 | RUNNING | restart reason=not recorded; authorisation=not recorded
+14/10/2026 08:14:00 ; event=DRV-443 ; D-01 ; MOTOR_OVERLOAD ; CV-01 STOPPED
+2026-10-14T08:15:00+08:00 | event=LINE-444 | LB-01 | READY

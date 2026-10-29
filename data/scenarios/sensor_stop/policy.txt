@@ -1,0 +1,5 @@
+SIMULATED SITE-M02 POLICY SUMMARY / revision 1
+Only authorised maintenance staff perform physical inspection and cleaning.
+They must use the site's approved isolation and verification procedure before contact with equipment.
+The complete procedure is absent from this demonstration pack. Ask the maintenance lead for it.
+Do not bypass detectors, change protective settings or authorise restart from this assistant.

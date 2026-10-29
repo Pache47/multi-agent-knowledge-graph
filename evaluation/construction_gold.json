@@ -1,0 +1,32 @@
+{
+  "description": "Hand-checked development assertions for E1/E2; not an independent benchmark.",
+  "relationships": [
+    ["CV-01", "HAS_COMPONENT", "D-01"],
+    ["CV-01", "HAS_COMPONENT", "M-01"],
+    ["CV-01", "HAS_COMPONENT", "G-01"],
+    ["CV-01", "HAS_COMPONENT", "PE-01"],
+    ["CV-01", "HAS_COMPONENT", "PE-02"],
+    ["CV-02", "HAS_COMPONENT", "D-02"],
+    ["CV-02", "HAS_COMPONENT", "M-02"],
+    ["CV-01", "SENDS_TO", "LB-01"],
+    ["CV-01", "HAS_CONFIGURATION", "CT-200:B"],
+    ["CV-02", "HAS_CONFIGURATION", "CT-200:A"],
+    ["E2:DRV-441", "RECORDED_FOR", "D-01"],
+    ["E2:DRV-443", "RECORDED_FOR", "D-01"],
+    ["E2:DRV-441", "REPORTS_ALARM", "alarm:MOTOR_OVERLOAD"]
+  ],
+  "forbidden_relationships": [
+    ["CV-01", "HAS_COMPONENT", "D-02"],
+    ["CV-01", "HAS_CONFIGURATION", "CT-200:A"],
+    ["CV-01", "HAS_COMPONENT", "PLC-01"]
+  ],
+  "properties": {
+    "CV-01": {"aliases": ["outfeed belt", "packing outfeed"]},
+    "CV-02": {"aliases": ["case packer outfeed"]},
+    "CT-200:B": {"model": "CT-200", "configuration": "B"},
+    "E2:DRV-441": {"occurred_at": "2026-10-14T07:58:00+08:00"},
+    "E2:RUN-442": {"message": "restart reason=not recorded; authorisation=not recorded"}
+  },
+  "evidence_counts": {"E2:DRV-441": 2},
+  "overloads": 2
+}

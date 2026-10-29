@@ -1,0 +1,60 @@
+{
+  "key": "f8c54eea6d17747cb11c9646cbc9713a0db6f9f9fec414f07f4103e111497e59",
+  "agent": "extract-stock_list",
+  "for": "C3",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "recorded_at": "2026-10-25T19:12:59+00:00",
+  "usage": {
+    "input_tokens": 731,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 187,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 918
+  },
+  "output": {
+    "header": {
+      "line": 1,
+      "text": "part_id,quantity_on_hand,quantity_reserved,location,counted_at"
+    },
+    "delimiter": ",",
+    "columns": [
+      {
+        "column": "part_id",
+        "field": "part_id",
+        "new_field_type": null,
+        "new_field_meaning": null
+      },
+      {
+        "column": "quantity_on_hand",
+        "field": "quantity",
+        "new_field_type": "integer",
+        "new_field_meaning": "Physical count of parts available on hand"
+      },
+      {
+        "column": "quantity_reserved",
+        "field": "quantity_reserved",
+        "new_field_type": "integer",
+        "new_field_meaning": "Quantity of parts reserved and not available for use"
+      },
+      {
+        "column": "location",
+        "field": "location",
+        "new_field_type": "string",
+        "new_field_meaning": "Storage location of the parts"
+      },
+      {
+        "column": "counted_at",
+        "field": "counted_at",
+        "new_field_type": "string",
+        "new_field_meaning": "Date and time when the quantity was counted"
+      }
+    ],
+    "counted_at": null,
+    "counted_at_iso": null
+  }
+}

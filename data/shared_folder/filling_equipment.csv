@@ -1,0 +1,4 @@
+id,name,aliases,parent,model,configuration
+FILL-20,Filling skid,filler skid,,FS-40,D
+P-21,Product transfer pump,feed pump|product pump,FILL-20,TP-30,H2
+P-22,Rinse return pump,return pump|rinse pump,FILL-20,RP-12,R1

@@ -1,0 +1,24 @@
+{
+  "key": "7f16e216132fbad2d03a2e384829ca63a834c86d530e2244e9fc180c7bfdd356",
+  "agent": "triage",
+  "for": "R1",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "recorded_at": "2026-10-25T19:12:54+00:00",
+  "usage": {
+    "input_tokens": 443,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 31,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 474
+  },
+  "output": {
+    "doc_type": "equipment_list",
+    "alternative": null,
+    "reason": "The file lists equipment with identifiers, names, models, and parent-child relationships."
+  }
+}

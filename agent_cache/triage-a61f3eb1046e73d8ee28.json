@@ -1,0 +1,24 @@
+{
+  "key": "a61f3eb1046e73d8ee283f735083503ff2c1c4ea2b6ec5b342b746cd026c643b",
+  "agent": "triage",
+  "for": "E5",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "recorded_at": "2026-10-25T19:12:54+00:00",
+  "usage": {
+    "input_tokens": 777,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 54,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 831
+  },
+  "output": {
+    "doc_type": "manual",
+    "alternative": "policy_summary",
+    "reason": "The document provides guidance on the CT-200 conveyor configuration B, including applicability, inspection boundaries, and references to maintenance procedures, typical of an equipment manual rather than a policy or other document type."
+  }
+}

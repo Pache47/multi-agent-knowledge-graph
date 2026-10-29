@@ -1,0 +1,29 @@
+{
+  "key": "59c4bcd15d25264258cd09e3713b74d156963bb6a7e1af70b52ddad866aa0586",
+  "agent": "reconcile",
+  "for": "S4",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "recorded_at": "2026-10-25T19:13:12+00:00",
+  "usage": {
+    "input_tokens": 404,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 49,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 453
+  },
+  "output": {
+    "decisions": [
+      {
+        "mention_index": 0,
+        "decision": "ambiguous",
+        "equipment_id": null,
+        "reason": "mention 'detector' could refer to 'Carton detector' (PS-10) or 'buffer detector' alias"
+      }
+    ]
+  }
+}

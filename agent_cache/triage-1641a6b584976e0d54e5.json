@@ -1,0 +1,24 @@
+{
+  "key": "1641a6b584976e0d54e5f016691c99df935f9591be1cfe17d1bb443d71550ba3",
+  "agent": "triage",
+  "for": "E3",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "recorded_at": "2026-10-25T19:12:54+00:00",
+  "usage": {
+    "input_tokens": 503,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 38,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 541
+  },
+  "output": {
+    "doc_type": "handover",
+    "alternative": "event_log",
+    "reason": "The content consists of timed operator notes describing observations and events during a shift, typical of a handover document."
+  }
+}

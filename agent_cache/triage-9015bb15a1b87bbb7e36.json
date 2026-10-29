@@ -1,0 +1,24 @@
+{
+  "key": "9015bb15a1b87bbb7e365a022999c053977acacfbb18bccd240d5ceae7cfe2c4",
+  "agent": "triage",
+  "for": "E4",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "recorded_at": "2026-10-25T19:12:54+00:00",
+  "usage": {
+    "input_tokens": 621,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 38,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 659
+  },
+  "output": {
+    "doc_type": "maintenance_history",
+    "alternative": "handover",
+    "reason": "The file contains detailed records of maintenance jobs including reports, findings, work done, and outcomes for specific equipment."
+  }
+}

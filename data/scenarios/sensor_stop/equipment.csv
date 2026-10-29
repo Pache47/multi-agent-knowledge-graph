@@ -1,0 +1,4 @@
+id,name,aliases,parent,model,configuration
+BF-10,Carton buffer conveyor,carton buffer,,CB-50,C
+PS-10,Carton detector,buffer detector,BF-10,,
+DRV-10,Buffer drive,buffer drive,BF-10,,

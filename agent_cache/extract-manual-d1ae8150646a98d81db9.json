@@ -1,0 +1,76 @@
+{
+  "key": "d1ae8150646a98d81db9a7b0a0979c479f9ad23c0d52390ea118b9741e201d89",
+  "agent": "extract-manual",
+  "for": "S3",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "recorded_at": "2026-10-25T19:13:09+00:00",
+  "usage": {
+    "input_tokens": 1079,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 223,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 1302
+  },
+  "output": {
+    "document_id": {
+      "line": 1,
+      "text": "SIMULATED CB-50 conveyor guidance / configuration C / revision 4"
+    },
+    "revision": {
+      "line": 1,
+      "text": "4"
+    },
+    "issued": null,
+    "issued_on": null,
+    "archived": false,
+    "applies_to": [
+      {
+        "model": {
+          "line": 2,
+          "text": "CB-50"
+        },
+        "configuration": {
+          "line": 2,
+          "text": "C"
+        }
+      }
+    ],
+    "section_headings": [
+      {
+        "line": 4,
+        "text": "Detection timeout"
+      },
+      {
+        "line": 7,
+        "text": "Distinguishing observations"
+      },
+      {
+        "line": 10,
+        "text": "Maintenance boundary"
+      }
+    ],
+    "alarm_definitions": [
+      {
+        "code": {
+          "line": 5,
+          "text": "SENSOR_BLOCKED"
+        },
+        "meaning": {
+          "line": 5,
+          "text": "SENSOR_BLOCKED means the carton detector's detection signal remained active longer than the configured interval. It does not establish that the detector has failed. Possible explanations include a carton obstructing the beam, contamination on the optical surface, or detector alignment. This is a detection condition, not a drive overload report."
+        }
+      }
+    ],
+    "procedure_references": [
+      {
+        "line": 11,
+        "text": "SITE-M02"
+      }
+    ]
+  }
+}

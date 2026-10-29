@@ -1,0 +1,73 @@
+{
+  "key": "a2d290508d62366b67478b5d7f4e5b5abca18d98963130d84443465eede27458",
+  "agent": "extract-handover",
+  "for": "S4",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "recorded_at": "2026-10-25T19:13:09+00:00",
+  "usage": {
+    "input_tokens": 927,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 252,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 1179
+  },
+  "output": {
+    "date": {
+      "line": 1,
+      "text": "17 Oct 2026"
+    },
+    "scope": {
+      "line": 1,
+      "text": "carton buffer BF-10"
+    },
+    "entries": [
+      {
+        "time": {
+          "line": 1,
+          "text": "14:08"
+        },
+        "occurred_at": "2026-10-17T14:08:00",
+        "text": {
+          "line": 2,
+          "text": "The detector indication remained active after operators believed the last carton had left."
+        },
+        "kind": "observation",
+        "equipment": null
+      },
+      {
+        "time": {
+          "line": 3,
+          "text": "14:08"
+        },
+        "occurred_at": "2026-10-17T14:08:00",
+        "text": {
+          "line": 3,
+          "text": "An earlier observation from the normal operator position noted visible dust on the detector cover. No physical inspection has been completed. Detector contamination is a suspicion, not a confirmed cause."
+        },
+        "kind": "suspicion",
+        "equipment": {
+          "line": 3,
+          "text": "detector"
+        }
+      },
+      {
+        "time": {
+          "line": 4,
+          "text": "14:08"
+        },
+        "occurred_at": "2026-10-17T14:08:00",
+        "text": {
+          "line": 4,
+          "text": "No cleaning, component replacement or successful restart is recorded in this note."
+        },
+        "kind": "observation",
+        "equipment": null
+      }
+    ]
+  }
+}

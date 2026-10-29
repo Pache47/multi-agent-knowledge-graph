@@ -1,0 +1,9 @@
+SIMULATED APPROVED PARTS LIST / engineering checked 12 Oct 2026 15:30 +08:00
+CT-200 conveyor / underside return roller assembly
+
+Configuration B: part RA-200B, roller assembly including bearings.
+Configuration A: part RA-200A, roller assembly including bearings.
+RA-200A and RA-200B are NOT approved substitutes for each other.
+Installed configuration determines compatibility; a matching description is insufficient.
+
+Motor replacement and supplier lead times are not covered by this list.

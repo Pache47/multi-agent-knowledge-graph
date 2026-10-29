@@ -1,0 +1,59 @@
+{
+  "key": "67fe08889242a3dec0040027a5007407059a73ecc3315e0563b7624afb97ea94",
+  "agent": "extract-approved_parts",
+  "for": "E7a",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "recorded_at": "2026-10-25T19:12:56+00:00",
+  "usage": {
+    "input_tokens": 642,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 112,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 754
+  },
+  "output": {
+    "approvals": [
+      {
+        "part_id": {
+          "line": 4,
+          "text": "RA-200B"
+        },
+        "description": {
+          "line": 4,
+          "text": "roller assembly including bearings."
+        },
+        "model": {
+          "line": 2,
+          "text": "CT-200"
+        },
+        "configuration": {
+          "line": 4,
+          "text": "B"
+        }
+      },
+      {
+        "part_id": {
+          "line": 5,
+          "text": "RA-200A"
+        },
+        "description": {
+          "line": 5,
+          "text": "roller assembly including bearings."
+        },
+        "model": {
+          "line": 2,
+          "text": "CT-200"
+        },
+        "configuration": {
+          "line": 5,
+          "text": "A"
+        }
+      }
+    ]
+  }
+}

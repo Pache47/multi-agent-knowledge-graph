@@ -1,0 +1,11 @@
+SIMULATED MAINTENANCE EMAIL
+Sent: 16 Oct 2026, 09:10 +08:00
+Subject: Friday closeout / WO-482
+
+11 Oct 2026, second shift — case packer outfeed (CV02).
+Operator reported packs backing up and belt creeping to the left.
+Loose mounting bolt on the left guide was recorded; roller condition wasn't checked.
+Shift fitter realigned the guide and secured the mounting bolt.
+Ran six cartons. No further left drift during that run; next-shift follow-up still open.
+
+Configuration tag wasn't written down. Photo attachment missing from this copy.

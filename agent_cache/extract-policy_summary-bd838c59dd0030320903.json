@@ -1,0 +1,30 @@
+{
+  "key": "bd838c59dd00303209031c84476cc7ba7d1892129a02e0f29cb315aa0e9d4bfa",
+  "agent": "extract-policy_summary",
+  "for": "E8",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "recorded_at": "2026-10-25T19:12:55+00:00",
+  "usage": {
+    "input_tokens": 659,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 47,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 706
+  },
+  "output": {
+    "procedure_id": {
+      "line": 1,
+      "text": "SITE-M01"
+    },
+    "full_procedure_included": false,
+    "basis": {
+      "line": 2,
+      "text": "For this interview demonstration only; not a complete isolation or repair procedure."
+    }
+  }
+}

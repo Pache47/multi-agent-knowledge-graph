@@ -1,0 +1,102 @@
+{
+  "key": "0cccd1292987da89911b9dacddde3c03e1e82e61fc63ef567bbf62e43a22d08a",
+  "agent": "extract-handover",
+  "for": "E3",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "recorded_at": "2026-10-25T19:12:57+00:00",
+  "usage": {
+    "input_tokens": 964,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 364,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 1328
+  },
+  "output": {
+    "date": {
+      "line": 2,
+      "text": "14 Oct 2026"
+    },
+    "scope": {
+      "line": 2,
+      "text": "Line 1"
+    },
+    "entries": [
+      {
+        "time": {
+          "line": 4,
+          "text": "07:30"
+        },
+        "occurred_at": "2026-10-14T07:30:00",
+        "text": {
+          "line": 4,
+          "text": "07:30 - large cartons today. Side guides moved for new size."
+        },
+        "kind": "observation",
+        "equipment": null
+      },
+      {
+        "time": {
+          "line": 5,
+          "text": "07:45"
+        },
+        "occurred_at": "2026-10-14T07:45:00",
+        "text": {
+          "line": 5,
+          "text": "07:45 - scraping nr outfeed, comes and goes. Not sure exactly where."
+        },
+        "kind": "observation",
+        "equipment": null
+      },
+      {
+        "time": {
+          "line": 6,
+          "text": "07:45"
+        },
+        "occurred_at": "2026-10-14T07:45:00",
+        "text": {
+          "line": 6,
+          "text": "Motor getting tired? Just my guess, no inspection done."
+        },
+        "kind": "suspicion",
+        "equipment": {
+          "line": 6,
+          "text": "Motor"
+        }
+      },
+      {
+        "time": {
+          "line": 7,
+          "text": "08:00"
+        },
+        "occurred_at": "2026-10-14T08:00:00",
+        "text": {
+          "line": 7,
+          "text": "08:00 - outfeed belt stopped, drive screen motor overload."
+        },
+        "kind": "observation",
+        "equipment": {
+          "line": 7,
+          "text": "outfeed belt"
+        }
+      },
+      {
+        "time": {
+          "line": 8,
+          "text": "08:15"
+        },
+        "occurred_at": "2026-10-14T08:15:00",
+        "text": {
+          "line": 8,
+          "text": "08:15 - stopped again. Maintenance called. Haven't inspected underneath."
+        },
+        "kind": "action",
+        "equipment": null
+      }
+    ]
+  }
+}

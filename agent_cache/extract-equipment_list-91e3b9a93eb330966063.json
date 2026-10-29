@@ -1,0 +1,267 @@
+{
+  "key": "91e3b9a93eb33096606388d16537b6e548320fa982571da286628e3c761d49cb",
+  "agent": "extract-equipment_list",
+  "for": "E1",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "recorded_at": "2026-10-25T19:12:59+00:00",
+  "usage": {
+    "input_tokens": 1115,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 723,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 1838
+  },
+  "output": {
+    "assets": [
+      {
+        "id": {
+          "line": 4,
+          "text": "Line 1"
+        },
+        "name": {
+          "line": 4,
+          "text": "carton packer"
+        },
+        "aliases": [],
+        "model": null,
+        "configuration": null,
+        "part_of": null,
+        "part_of_lines": []
+      },
+      {
+        "id": {
+          "line": 4,
+          "text": "CV-01"
+        },
+        "name": null,
+        "aliases": [
+          {
+            "line": 5,
+            "text": "outfeed belt"
+          },
+          {
+            "line": 5,
+            "text": "packing outfeed"
+          }
+        ],
+        "model": {
+          "line": 5,
+          "text": "CT-200"
+        },
+        "configuration": {
+          "line": 5,
+          "text": "B"
+        },
+        "part_of": "Line 1",
+        "part_of_lines": [
+          4
+        ]
+      },
+      {
+        "id": {
+          "line": 4,
+          "text": "LB-01"
+        },
+        "name": {
+          "line": 4,
+          "text": "labeller"
+        },
+        "aliases": [],
+        "model": null,
+        "configuration": null,
+        "part_of": "Line 1",
+        "part_of_lines": [
+          4
+        ]
+      },
+      {
+        "id": {
+          "line": 6,
+          "text": "D-01"
+        },
+        "name": {
+          "line": 6,
+          "text": "Drive"
+        },
+        "aliases": [],
+        "model": null,
+        "configuration": null,
+        "part_of": "CV-01",
+        "part_of_lines": [
+          6
+        ]
+      },
+      {
+        "id": {
+          "line": 6,
+          "text": "M-01"
+        },
+        "name": {
+          "line": 6,
+          "text": "motor"
+        },
+        "aliases": [],
+        "model": null,
+        "configuration": null,
+        "part_of": "CV-01",
+        "part_of_lines": [
+          6
+        ]
+      },
+      {
+        "id": {
+          "line": 6,
+          "text": "G-01"
+        },
+        "name": {
+          "line": 6,
+          "text": "gearbox"
+        },
+        "aliases": [],
+        "model": null,
+        "configuration": null,
+        "part_of": "CV-01",
+        "part_of_lines": [
+          6
+        ]
+      },
+      {
+        "id": {
+          "line": 6,
+          "text": "PE-01"
+        },
+        "name": {
+          "line": 6,
+          "text": "Entry sensor"
+        },
+        "aliases": [],
+        "model": null,
+        "configuration": null,
+        "part_of": "CV-01",
+        "part_of_lines": [
+          6
+        ]
+      },
+      {
+        "id": {
+          "line": 6,
+          "text": "PE-02"
+        },
+        "name": {
+          "line": 6,
+          "text": "exit sensor"
+        },
+        "aliases": [],
+        "model": null,
+        "configuration": null,
+        "part_of": "CV-01",
+        "part_of_lines": [
+          6
+        ]
+      },
+      {
+        "id": {
+          "line": 9,
+          "text": "PLC-01"
+        },
+        "name": {
+          "line": 9,
+          "text": "Controller"
+        },
+        "aliases": [],
+        "model": null,
+        "configuration": null,
+        "part_of": null,
+        "part_of_lines": []
+      },
+      {
+        "id": {
+          "line": 13,
+          "text": "Line 2"
+        },
+        "name": null,
+        "aliases": [],
+        "model": null,
+        "configuration": null,
+        "part_of": null,
+        "part_of_lines": []
+      },
+      {
+        "id": {
+          "line": 13,
+          "text": "CV-02"
+        },
+        "name": null,
+        "aliases": [
+          {
+            "line": 13,
+            "text": "case packer outfeed"
+          }
+        ],
+        "model": {
+          "line": 13,
+          "text": "CT-200"
+        },
+        "configuration": {
+          "line": 13,
+          "text": "A"
+        },
+        "part_of": "Line 2",
+        "part_of_lines": [
+          13
+        ]
+      },
+      {
+        "id": {
+          "line": 14,
+          "text": "D-02"
+        },
+        "name": {
+          "line": 14,
+          "text": "Drive"
+        },
+        "aliases": [],
+        "model": null,
+        "configuration": null,
+        "part_of": "CV-02",
+        "part_of_lines": [
+          14
+        ]
+      },
+      {
+        "id": {
+          "line": 14,
+          "text": "M-02"
+        },
+        "name": {
+          "line": 14,
+          "text": "motor"
+        },
+        "aliases": [],
+        "model": null,
+        "configuration": null,
+        "part_of": "CV-02",
+        "part_of_lines": [
+          14
+        ]
+      }
+    ],
+    "flows": [
+      {
+        "upstream": "carton packer",
+        "downstream": "CV-01",
+        "line": 4
+      },
+      {
+        "upstream": "CV-01",
+        "downstream": "LB-01",
+        "line": 4
+      }
+    ]
+  }
+}

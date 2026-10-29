@@ -1,0 +1,30 @@
+{
+  "key": "7c149afbccf1727eeac48c285cdab1cc3b855c405549f5fe4358e50fd1206efe",
+  "agent": "extract-policy_summary",
+  "for": "S5",
+  "model": "gpt-4.1-mini-2025-04-14",
+  "recorded_at": "2026-10-25T19:13:09+00:00",
+  "usage": {
+    "input_tokens": 659,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 43,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 702
+  },
+  "output": {
+    "procedure_id": {
+      "line": 1,
+      "text": "SITE-M02"
+    },
+    "full_procedure_included": false,
+    "basis": {
+      "line": 4,
+      "text": "The complete procedure is absent from this demonstration pack."
+    }
+  }
+}
